@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #eef6f8;
+  --foreground: #0d1f26;
+  --card: #ffffff;
+  --card-foreground: #0d1f26;
+  --popover: #ffffff;
+  --popover-foreground: #0d1f26;
+  --primary: #0d1f26;
+  --primary-foreground: #ffffff;
+  --secondary: #d4ecf0;
+  --secondary-foreground: #0d1f26;
+  --muted: #e0f0f4;
+  --muted-foreground: #4a7080;
+  --accent: #3ab5d0;
+  --accent-foreground: #ffffff;
+  --destructive: #e53e3e;
+  --destructive-foreground: #ffffff;
+  --border: #c0dde5;
+  --input: #d4ecf0;
+  --ring: #3ab5d0;
+  --radius: 0.625rem;
+  --sidebar: #0d1f26;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #3ab5d0;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1a3040;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #1e3a4a;
+  --sidebar-ring: #3ab5d0;
+}
+
+.dark {
+  --background: #0d1f26;
+  --foreground: #eef6f8;
+  --card: #1a3040;
+  --card-foreground: #eef6f8;
+  --popover: #1a3040;
+  --popover-foreground: #eef6f8;
+  --primary: #3ab5d0;
+  --primary-foreground: #0d1f26;
+  --secondary: #1a3040;
+  --secondary-foreground: #eef6f8;
+  --muted: #1e3a4a;
+  --muted-foreground: #7ab8c8;
+  --accent: #3ab5d0;
+  --accent-foreground: #0d1f26;
+  --destructive: #e53e3e;
+  --destructive-foreground: #ffffff;
+  --border: #1e3a4a;
+  --input: #1a3040;
+  --ring: #3ab5d0;
+}
+
+* { border-color: var(--border); }
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}
