@@ -1,2 +1,5 @@
-"use client";
-export { DashboardPage as default } from "@/components/Dashboard";
+import { DashboardPage } from "@/components/dashboard-page";
+
+export default function Page() {
+  return <DashboardPage />;
+}

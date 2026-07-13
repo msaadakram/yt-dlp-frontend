@@ -1,2 +1,5 @@
-"use client";
-export { HomePage as default } from "@/components/shared";
+import { HomePage } from "@/components/app-pages";
+
+export default function Page() {
+  return <HomePage />;
+}

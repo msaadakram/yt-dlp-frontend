@@ -1,2 +1,5 @@
-"use client";
-export { SignUpPage as default } from "@/components/shared";
+import { SignUpPage } from "@/components/app-pages";
+
+export default function Page() {
+  return <SignUpPage />;
+}

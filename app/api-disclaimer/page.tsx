@@ -1,2 +1,5 @@
-"use client";
-export { ApiDisclaimerPage as default } from "@/components/shared";
+import { ApiDisclaimerPage } from "@/components/app-pages";
+
+export default function Page() {
+  return <ApiDisclaimerPage />;
+}

@@ -1,2 +1,5 @@
-"use client";
-export { PrivacyPolicyPage as default } from "@/components/shared";
+import { PrivacyPolicyPage } from "@/components/app-pages";
+
+export default function Page() {
+  return <PrivacyPolicyPage />;
+}

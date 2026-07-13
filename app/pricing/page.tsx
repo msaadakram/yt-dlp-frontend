@@ -1,2 +1,5 @@
-"use client";
-export { PricingPage as default } from "@/components/shared";
+import { PricingPage } from "@/components/app-pages";
+
+export default function Page() {
+  return <PricingPage />;
+}
