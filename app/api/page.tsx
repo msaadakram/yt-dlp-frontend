@@ -1,2 +1,5 @@
-"use client";
-export { ApiPage as default } from "@/components/shared";
+import { ApiPage } from "@/components/app-pages";
+
+export default function Page() {
+  return <ApiPage />;
+}
